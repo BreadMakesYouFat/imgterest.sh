@@ -45,7 +45,7 @@ ls -d images/*/*/ | xargs -I{} imgterest.sh {}
 
 ## Authors
 
-* **BreadMakesYouFat** - [website](www.github.com/BreadMakesYouFat)
+* **BreadMakesYouFat** - [website](https://www.github.com/BreadMakesYouFat)
 
 ## License
 
