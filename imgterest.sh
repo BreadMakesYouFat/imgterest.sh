@@ -22,6 +22,7 @@ imgterest.collage () { # Take images in $1 and log html collage to term.
 imgterest.main () { # Generates page of images at "${1}/index.html"
     local directory="$1"
     imgterest.collage $directory > "${directory}/index.html"
+    echo generated: "${directory}/index.html"
 }
 
 
